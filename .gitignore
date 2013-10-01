@@ -1,0 +1,9 @@
+.bundle
+.jekyll
+.sass-cache
+.tmp
+app/_bower_components
+dist
+Gemfile.lock
+node_modules
+vendor

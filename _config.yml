@@ -1,0 +1,16 @@
+name:          jekyll-boilerplate
+description:   Jekyll Boilerplate with Grunt
+client_id:     ef53f7e3485d4f04a90c90d6be179da5
+
+exclude:
+  - img
+  - css
+  - js
+  - fonts
+
+pygments: true
+
+markdown: redcarpet
+
+safe:      true
+lsi:       false

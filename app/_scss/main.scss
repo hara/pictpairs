@@ -1,0 +1,21 @@
+$icon-font-path: '../_bower_components/sass-bootstrap/fonts/';
+
+@import '../_bower_components/sass-bootstrap/lib/bootstrap';
+
+/* Space out container */
+body {
+  padding-top: 50px;
+}
+
+/* Customize container */
+@media (min-width: $screen-sm) {
+  .container {
+    max-width: 728px;
+  }
+}
+
+/* Game boards */
+.canvas-container {
+  margin-left: auto;
+  margin-right: auto;
+}
