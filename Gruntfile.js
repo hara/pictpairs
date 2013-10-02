@@ -143,7 +143,8 @@ module.exports = function (grunt) {
             'dist/js/**/*.js',
             'dist/css/**/*.css',
             'dist/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
-            'dist/fonts/**/*.{eot,otf,svg,svgz,ttf,woff}'
+            'dist/fonts/**/*.{eot,otf,svg,svgz,ttf,woff}',
+            '!dist/img/back.png'
           ]
         }
       }
