@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>jekyll-boilerplate</title>
+<meta name="description" content="Jekyll Boilerplate with Grunt">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" href="css/b81fea63.main.css">
+
+<script src="js/vendor/f7f27360.modernizr.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXX-Y');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand"
+        href="/pictpairs/index.html">PictPairs</a>
+    </div>
+  </div>
+</nav>
+
+<div id="pictpairs">
+</div>
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<script type="text/template" id="login-template">
+<div class="jumbotron">
+  <div class="container">
+    <h1>Concentrate. Feel the Force flow.</h1>
+    <p>PictPairs is a concentration game which uses Instagram photos instead of cards.</p>
+    <a id="login-button"
+       class="btn btn-primary btn-lg"
+       data-redirect-path="/pictpairs/index.html"
+       data-client-id="ef53f7e3485d4f04a90c90d6be179da5">
+       <span class="glyphicon glyphicon-play"></span>
+       Play with my Instagram
+    </a>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="play-template">
+<div class="container">
+  <canvas id="board-canvas"
+          data-back-image="/pictpairs/img/back.png"></canvas>
+
+  <div class="modal" id="complete-dialog" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4>Congratulations!</h4>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-primary btn-lg"
+             href="/pictpairs/index.html">
+             Replay
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</script>
+
+<script src="js/a10ea443.vendor.js"></script>
+
+<script src="js/945cb1b5.app.js"></script>
+</body>
+</html>
